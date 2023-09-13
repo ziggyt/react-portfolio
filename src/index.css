@@ -27,4 +27,13 @@
         @apply font-light;
         @apply text-gray-400;
     }
+
+    :root {
+        --primary-color: #3498db;
+        --secondary-color: #e74c3c;
+        --background-color: #f4f4f4;
+        --text-color: #333;
+        /* ... add other variables as needed */
+    }
+
 }
