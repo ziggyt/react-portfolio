@@ -6,8 +6,8 @@ interface Props {
 
 const Hero = ({name, description, website}: Props) => {
     return (
-        <div className={'flex flex-row'}>
-            <img className={'w-24 hover:scale-105 ease-in duration-150 rounded-lg'}
+        <div id={"max"} className={'flex flex-row'}>
+            <img className={'w-24 hover:scale-105 ease-in duration-[120] rounded-lg'}
                  src={'https://bonhomme.lol/profile.png'}/>
             <div className={'flex flex-col pl-4'}>
                 <h2>{name}</h2>

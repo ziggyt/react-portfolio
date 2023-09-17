@@ -1,15 +1,14 @@
-import Terminal, {ColorMode, TerminalOutput} from 'react-terminal-ui';
-import {useState} from "react";
+import Terminal, {ColorMode} from 'react-terminal-ui';
 import {TypeAnimation} from "react-type-animation";
 
-interface Props {
-    initialTerminalData: string
-}
+// interface Props {
+//     initialTerminalData: string
+// }
 
-const TerminalController = ({initialTerminalData}: Props) => {
-    const [terminalData, setTerminalData] = useState([
-        <TerminalOutput>{initialTerminalData}</TerminalOutput>
-    ]);
+const TerminalController = () => {
+    // const [terminalData, setTerminalData] = useState([
+    //     <TerminalOutput>{initialTerminalData}</TerminalOutput>
+    // ]);
     // Terminal has 100% width by default so it should usually be wrapped in a container div
     return (
         <div className={'container p-2 rounded-lg shadow-2xl shadow-gray-400'}>
@@ -36,9 +35,9 @@ const TerminalController = ({initialTerminalData}: Props) => {
         </div>
     )
 
-    function changeData(newData: string) {
-        setTerminalData(newData);
-    }
+    // function changeData(newData: string) {
+    //     setTerminalData(newData);
+    // }
 
 };
 

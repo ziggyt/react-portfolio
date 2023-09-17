@@ -27,6 +27,11 @@
         @apply font-light;
         @apply text-gray-400;
     }
+    a {
+        @apply font-light;
+        @apply text-gray-400;
+        @apply hover:scale-105 text-gray-200
+    }
 
     :root {
         --primary-color: #3498db;

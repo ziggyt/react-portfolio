@@ -41,7 +41,7 @@ const data = [
 const Work = () => {
     // const color: string = '#efedff'
     return (
-        <div id={'work'} className={'max-w-5xl m-auto md:pl-20 p-4 py-8'}>
+        <div id={'work'} className={'max-w-[1040px] m-auto md:pl-20 p-4 py-8'}>
             <h1 className={'pb-5'}>Work</h1>
             {data.map((item, index) => (
                     <WorkItem key={index} year={item.year} title={item.title}

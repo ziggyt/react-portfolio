@@ -15,8 +15,8 @@ const Projects = () => {
 
 
     return (
-        <div className={'p-5'}>
-            <h2>Projects</h2>
+        <div id={"projects"} className={'pt-5 pl-5 pr-5 pb-10'}>
+            <h1>Projects</h1>
             <div className={'m-auto max-w-[1040px] grid gap-12 sm:grid-cols-2 pb-5 pl-5 pr-5'}>
                 {projectData.map((item, index) => (
                         <ProjectItem key={index} imgSrc={item.imgSrc} title={item.title}/>

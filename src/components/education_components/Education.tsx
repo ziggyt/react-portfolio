@@ -1,5 +1,4 @@
-import EducationItem from "./EducationItem.tsx";
-
+import EducationItem from './EducationItem.tsx'
 
 const data = [
     {
@@ -23,11 +22,11 @@ const data = [
 const Education = () => {
     // const color: string = '#efedff'
     return (
-        <div id={'work'} className={'max-w-5xl m-auto md:pl-20 p-4 py-8'}>
+        <div id={'education'} className={'max-w-5xl m-auto md:pl-20 p-4 py-8'}>
             <h1 className={'pb-5'}>Education</h1>
             {data.map((item, index) => (
-                    <EducationItem year={item.year} duration={item.duration} university={item.university}
-                                   program={item.program} details={item.details}/>
+                <div key={index}><EducationItem year={item.year} duration={item.duration} university={item.university}
+                                    program={item.program} details={item.details}/></div>
 
                 )
             )}
