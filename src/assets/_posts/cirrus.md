@@ -45,9 +45,6 @@ The design is:
 #### Bottom view
 ![plot](https://github.com/draforfrogan/portfolio-blog/raw/master/assets/images/bottom.png "plot")
 
-### Plate
-TODO
-
 ### Firmware
 The firmware is made using QMK, and can be flashed to the macro pad by first resetting the Pro Micro (shorting RST and GND) and then using
 
@@ -55,9 +52,12 @@ The firmware is made using QMK, and can be flashed to the macro pad by first res
 qmk flash -kb cirrus8 -km default
 ```
 
-### Build Guide and BOM
+[//]: # (### Build Guide and BOM)
 
-Found here:
+[//]: # ()
+[//]: # (Found here:)
 
-### Links
-KiCAD project, Gerbers and QMK firmware can be found on the GitHub repo here: LINK
+[//]: # ()
+[//]: # (### Links)
+
+[//]: # (KiCAD project, Gerbers and QMK firmware can be found on the GitHub repo here: LINK)
