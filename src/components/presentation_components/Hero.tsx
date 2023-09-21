@@ -12,11 +12,7 @@ const Hero = ({name, description, website}: Props) => {
             <div className={'flex flex-col pl-4'}>
                 <h2>{name}</h2>
                 <p>{description}</p>
-                <div>
-                    <a href={website}>
-                        <h3 className={'hover:bg-sky-700'}>{website}</h3>
-                    </a>
-                </div>
+                <a href={website} target="_blank" rel="noopener noreferrer">fransson.lol</a>
             </div>
 
         </div>

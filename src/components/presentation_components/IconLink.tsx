@@ -10,7 +10,7 @@ const IconLink = ({ icon, link, size = 50 }: Props) => {
     const iconWithSize = React.cloneElement(icon, { size });
 
     return (
-        <a href={link} className={'hover:scale-110 ease-in duration-100 cursor-pointer'}>
+        <a href={link} className={'hover:scale-110 ease-in duration-100 cursor-pointer p-6'}>
             {iconWithSize}
         </a>
     );

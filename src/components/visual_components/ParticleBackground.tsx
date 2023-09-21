@@ -52,7 +52,7 @@ const ParticleBackground: React.FC = () => {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 150,
+                        distance: 300,
                         enable: true,  // no links for a space feel
                         opacity: 0.3,
                         width: 0.5,
@@ -72,10 +72,11 @@ const ParticleBackground: React.FC = () => {
                             enable: true,
                             area: 1000,
                         },
-                        value: 25,  // fewer particles
+                        value: 30,  // fewer particles
                     },
                     opacity: {
-                        value: { min: 0.1, max: 1 }
+                        random: true,
+                        value: { min: 0.1, max: 0.9 }
                     },
                     shape: {
                         type: "triangle",

@@ -6,8 +6,8 @@ const data = [
         year: 2022,
         company: "Research Institutes of Sweden (RISE)",
         title: 'Research and Development Engineer',
-        duration: "Aug 2022 - Present (1 yr 2 mos)",
-        details: "System development and product development focusing on autonomous technology. Conducted research through prototyping.",
+        duration: "Aug 2022 - Present",
+        details: "System development and product development focusing on autonomous technology. Conducting research through SW/HW prototyping.",
         skills: ['Prototyping', 'Research', 'Software Engineering']
     },
     {
@@ -41,7 +41,7 @@ const data = [
 const Work = () => {
     // const color: string = '#efedff'
     return (
-        <div id={'work'} className={'max-w-[1040px] m-auto md:pl-20 p-4 py-8'}>
+        <div id={'work'} className={'max-w-[1040px] m-auto md:pl-20 md:pr-20 p-4 py-8'}>
             <h1 className={'pb-5'}>Work</h1>
             {data.map((item, index) => (
                     <WorkItem key={index} year={item.year} title={item.title}
